@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         layerNames.add("47");
         final WmsLayer wmsLayer = new WmsLayer("https://nowcoast.noaa.gov/arcgis/services/nowcoast/forecast_meteoceanhydro_sfc_ndfd_windspeed_offsets/MapServer/WMSServer?request=GetCapabilities&service=WMS",layerNames);
         //add portal credentials
-        UserCredential creds = new UserCredential("aallie_usctrojan", "bergamot2018");
+        UserCredential creds = new UserCredential("*********", "*******");
         Portal portal = new Portal("https://usctrojan.maps.arcgis.com");
         portal.setCredential(creds);
         portal.loadAsync();
